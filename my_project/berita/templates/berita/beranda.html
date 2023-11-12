@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>simple Web Page</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my simple website!</p>
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
+            <p>I enjoy doing...</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Simple Web Page. All rights reserved.</p>
+    </footer>
+
+
+{% endblock %}
